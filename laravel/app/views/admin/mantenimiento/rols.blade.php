@@ -43,7 +43,7 @@
                         <div class="box-header">
                             <h3 class="box-title">Filtros</h3>
                         </div><!-- /.box-header -->
-                        <form id="form_roles" name="form_verbos" method="POST" action="">
+                        <form id="form_roles" name="form_roles" method="POST" action="">
                         <div class="box-body table-responsive">
                             <table id="t_roles" class="table table-bordered table-hover">
                                 <thead>
