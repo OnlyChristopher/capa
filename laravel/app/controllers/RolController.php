@@ -42,18 +42,18 @@ class RolController extends \BaseController
             if( Input::has("nombre") ){
                 $nombre=Input::get("nombre");
                 if( trim( $nombre )!='' ){
-                    $array['where'].=" AND r.nombre LIKE '%".$nombre."%' ";
+                    $array['where'].=" AND nombre LIKE '%".$nombre."%' ";
                 }
             }
 
             if( Input::has("estado") ){
                 $estado=Input::get("estado");
                 if( trim( $estado )!='' ){
-                    $array['where'].=" AND r.estado='".$estado."' ";
+                    $array['where'].=" AND estado='".$estado."' ";
                 }
             }
 
-            $array['order']=" ORDER BY r.nombre ";
+            $array['order']=" ORDER BY nombre ";
 
             $cant  = Rol::getCargarCount( $array );
             $aData = Rol::getCargar( $array );

@@ -43,6 +43,7 @@
                         <div class="box-header">
                             <h3 class="box-title">Filtros</h3>
                         </div><!-- /.box-header -->
+                        <form id="form_roles" name="form_verbos" method="POST" action="">
                         <div class="box-body table-responsive">
                             <table id="t_roles" class="table table-bordered table-hover">
                                 <thead>
@@ -59,6 +60,7 @@
                             data-toggle="modal" data-target="#rolModal" data-titulo="Nuevo"><i class="fa fa-plus fa-lg"></i>&nbsp;Nuevo</a>
                             <a style="display:none" id="BtnEditar" data-toggle="modal" data-target="#rolModal" data-titulo="Editar"></a>
                         </div><!-- /.box-body -->
+                            </form>
                     </div><!-- /.box -->
                     <!-- Finaliza contenido -->
                 </div>

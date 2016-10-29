@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'procesos',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => '5348483',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_general_ci',
 			'prefix'    => '',
